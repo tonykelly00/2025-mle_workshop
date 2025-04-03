@@ -27,3 +27,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 -initalise python project in 
     -run 'uv init --python 3.10'
+
+### install dependencies
+   run uv add scikit-learn==1.2.2 pandas pyarrow
+   run dev dependencies only needed during developmen
+   uv add --dev jupyter seaborn
